@@ -22,6 +22,30 @@ func main()  {
 		fmt.Printf("Write second number: \n")
 		fmt.Scanln(&num2)
 		sum := num1 * num2
-		fmt.Printf("Your division sum number is %d\n", sum)
+		fmt.Printf("Your division number is %d\n", sum)
+
+	case "multiplication":
+		fmt.Printf("Write first number: \n")
+		fmt.Scanln(&num1)
+		fmt.Printf("Write second number: \n")
+		fmt.Scanln(&num2)
+		sum := num1 / num2
+		fmt.Printf("Your multiplication number is %d\n", sum)
+	
+	case "plus":
+		fmt.Printf("Write first number: \n")
+		fmt.Scanln(&num1)
+		fmt.Printf("Write second number: \n")
+		fmt.Scanln(&num2)
+		sum := num1 + num2
+		fmt.Printf("Your plus number is %d\n", sum)
+
+	case "minus":
+		fmt.Printf("Write first number: \n")
+		fmt.Scanln(&num1)
+		fmt.Printf("Write second number: \n")
+		fmt.Scanln(&num2)
+		sum := num1 - num2
+		fmt.Printf("Your minus number is %d\n", sum)
 	}
 }
